@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/rajveersingh-a11y/simple-todo-app-mongodb-express-node.git'
             }
         }
